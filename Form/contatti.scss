@@ -1,0 +1,143 @@
+
+
+// Import dei font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+// Variabili globali
+$primary-color: #725A5C;
+$dark-color: #001514;
+$background-light: #F7F4F3;
+$footer-text-color: white;
+$font-primary: "Playfair Display", serif;
+$font-secondary: "Roboto", serif;
+
+// Root
+:root {
+  --primary-color: $primary-color;
+  --dark-color: $dark-color;
+}
+
+// Corpo della pagina
+body {
+  font-family: $font-primary;
+  color: #555;
+  background-color: $background-light;
+}
+
+// Immagini
+.img {
+  width: 30%;
+}
+img {
+  max-width: 100%;
+}
+
+// Link
+a {
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $dark-color;
+    text-decoration: none;
+  }
+}
+
+.text-primary {
+  color: $primary-color !important;
+}
+
+.text-dark {
+  color: $primary-color;
+}
+
+
+// Main
+main {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 70px;
+
+  @media (max-width: 767px) {
+   
+    padding-bottom: 40px;
+  }
+}
+
+// Form contatti
+.contact-form {
+  padding: 3px;
+  
+
+  @media (max-width: 767px) {
+    padding: 25px;
+  }
+
+  .lead {
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0 0 30px;
+    color: black;
+    font-family: $font-secondary;
+  }
+
+  .form-control {
+    border: 1px solid $dark-color;
+    box-shadow: none;
+    padding: 0.575rem 0.75rem;
+  }
+}
+
+h3{
+    font-family: $font-primary;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 40px;
+    margin: 0 0 90px;
+    color: $dark-color;
+    text-align: center;
+
+    @media (max-width:767px) {
+      margin: 0 0 20px;
+    }
+    
+}
+
+.form-label {
+  color: black;
+  font-family: $font-secondary;
+  font-weight: 400;
+}
+
+.email-img {
+  margin-top: 80px;
+  width: 1000px;
+  height: auto;
+}
+
+// Footer
+.footer {
+  background-color: $primary-color;
+  color: $footer-text-color;
+  padding: 10px 0;
+  font-family: $font-secondary;
+  
+
+  .nav {
+    a {
+      font-size: 20px;
+      color: $footer-text-color;
+
+      &:hover {
+        color: $dark-color;
+      }
+
+      & + a {
+        margin-left: 18px;
+      }
+    }
+  }
+}

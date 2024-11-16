@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti</title>
+    <link rel="icon" type="image/favicon" href="/assets/images/logo 1.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="/Form/contatti.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <script src="https://kit.fontawesome.com/8431822a79.js" crossorigin="anonymous"></script>
+       
+   
+
+</head>
+<body>
+
+    <!--header-->
+    <header class="main-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+          <div class="container">
+              <!-- my logo-->
+              <a href="#" class="navbar-brand">
+                  <h4 class="mb-0">Alessia <span class="text-primary">Ferrari</span></h4>
+
+              </a>
+
+              <!-- Menu-->
+               <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+                  <ul class="navbar-nav mx-auto">
+                      <li>
+                          <a href="/index.html" class="nav-link">Home</a>
+                      </li>
+                      <li>
+                          <a href="/index.html#about" class="nav-link">About</a>
+                      </li>
+                      <li>
+                          <a href="/index.html#servizi" class="nav-link">Servizi</a>
+                      </li>
+                      <li>
+                          <a href="/index.html#skills" class="nav-link">Skills</a>
+                      </li>
+                      <li>
+                          <a href="/index.html#portfolio" class="nav-link">Portfolio</a>
+                      </li>
+                  </ul>
+               </div>
+               <!--button-->
+               <div class="ms-auto d-none d-lg-block">
+                  <a href="#contatti" class="colored-btn" href="#contact">Contatti</a>
+               </div>
+               
+               <!--Mobile menu-->
+               <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-toggle">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </button>
+
+
+          </div>
+
+        </nav>
+      </header>
+
+    <main>
+      <!--Contatti-->
+
+      <section id="contatti" class="section ">
+        <div class="container">
+            <div class="section-heading">
+                <h3>CONTATTI</h3>
+            </div>
+            <div class="row gy-5">
+                <div class="col-lg-6">
+                    <div class="contact-form" id="form">
+                        
+                        <p class="lead"><em>Sono sempre aperta a nuove collaborazioni e opportunità professionali. Se cerchi qualcuno appassionato di design e attento ai dettagli, contattami per discutere di come posso contribuire al tuo team!</em></p>
+                        <form action="https://formsubmit.co/iamalex9506@gmail.com"  method="POST">
+                            <div class="row gy-4 gx-3">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="name" name="name" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" name="email" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Oggetto</label>
+                                        <input type="text" class="form-control" id="subject" name="subject" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Messaggio</label>
+                                       <textarea name="message" id="message" placeholder="Scrivi qui il tuo messaggio..." rows="3" class="form-control"></textarea required>
+                                    </div>
+                                </div>
+                                <input type="hidden" name="_captcha" value="false">
+                                <div class="col-12">
+                                    <button class="colored-btn" type="submit">Invia Email</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                    <div class="col-lg-5 ms-auto col-xl-4">
+                        <div class="pb-5 d-none d-md-block">
+                            <img src="/assets/images/email.png" class="email-img" alt="email illustrazione">
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+
+    </section>
+
+   
+
+</main>
+ <!--Footer-->
+ <footer class="footer">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 py-2">
+                <div class="nav justify-content-center justify-content md-start">
+                    <a href="https://www.facebook.com/alessia.v.ferrari.9" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/iamalex_ferrari/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="www.linkedin.com/in/alessia-ferrari-a9a46420a" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/AlexFerrari95" target="_blank"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 py-2 text-center text-md-end">
+                <p class="m-0">© 2024 Copyright reserved | Sviluppato da Alessia Ferrari</p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  
+</body>
+</html>

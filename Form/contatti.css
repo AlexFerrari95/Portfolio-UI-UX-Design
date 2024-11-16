@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+:root {
+  --primary-color: $primary-color;
+  --dark-color: $dark-color;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  color: #555;
+  background-color: #F7F4F3;
+}
+
+.img {
+  width: 30%;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #725A5C;
+  text-decoration: none;
+}
+a:hover {
+  color: #001514;
+  text-decoration: none;
+}
+
+.text-primary {
+  color: #725A5C !important;
+}
+
+.text-dark {
+  color: #725A5C;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+@media (max-width: 767px) {
+  main {
+    padding-bottom: 40px;
+  }
+}
+
+.contact-form {
+  padding: 3px;
+}
+@media (max-width: 767px) {
+  .contact-form {
+    padding: 25px;
+  }
+}
+.contact-form .lead {
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0 0 30px;
+  color: black;
+  font-family: "Roboto", serif;
+}
+.contact-form .form-control {
+  border: 1px solid #001514;
+  box-shadow: none;
+  padding: 0.575rem 0.75rem;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 40px;
+  margin: 0 0 90px;
+  color: #001514;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  h3 {
+    margin: 0 0 20px;
+  }
+}
+
+.form-label {
+  color: black;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+}
+
+.email-img {
+  margin-top: 80px;
+  width: 1000px;
+  height: auto;
+}
+
+.footer {
+  background-color: #725A5C;
+  color: white;
+  padding: 10px 0;
+  font-family: "Roboto", serif;
+}
+.footer .nav a {
+  font-size: 20px;
+  color: white;
+}
+.footer .nav a:hover {
+  color: #001514;
+}
+.footer .nav a + a {
+  margin-left: 18px;
+}/*# sourceMappingURL=contatti.css.map */
