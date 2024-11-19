@@ -4,25 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
-    <link rel="icon" type="image/favicon" href="./assets/images/logo 1.png ">
+    <meta name="description" content="Scopri il portfolio di Alessia Ferrari, designer focalizzata su interfacce utente e user experiece">
+    <meta property="og:title" content="Alessia Ferrari Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alexferrari95.github.io/Portfolio-UI-UX-Design/index.html">
+    <meta property="og:image" content="https://alexferrari95.github.io/Portfolio-UI-UX-Design/assets/images/aboutme.jpg">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:site_name" content="Alessia Ferrari Portfolio">
+    <link rel="icon" type="image/favicon" href="./assets/images/logo.png ">
   
-   
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        body {
+            font-family: "Playfair Display", serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1ed;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h3 {
+            color: #725A5C;
+        }
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 8px;
+        }
+        h3 {
+            font-size: 1.5em;
+            margin-top: 20px;
+            border-bottom: 3px solid #cabbb0;
+            padding-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            font-family: "Roboto", serif;
+        }
+
+        p {
+            font-family: "Roboto", serif;
+        }
+
+        .linkedin {
+            text-decoration: none;
+            color: #7d686a;
+            font-weight: 700;
+        }
+
+        .design {
+            text-align: center;
+        
+        }
+    </style>
 </head>
 <body>
 
     <div class="container">
         <!-- Intestazione -->
         <h1>ALESSIA FERRARI</h1>
-        <p><em>UI/UX Designer</em></p>
+        <p class="design"><em>UI/UX Designer</em></p>
 
         <!-- Chi Sono -->
-        <div class="section" id="chi-sono">
+        <div class="section" id="chi-sono" aria-label="Chi sono">
             <h3>CHI SONO</h3>
             <p>Sono una UI/UX designer con una grande passione per il design e la tecnologia. Amo creare esperienze digitali intuitive e accessibili, unendo funzionalità ed estetica. Ogni progetto è per me un'opportunità di crescita e di espressione creativa, guidata dalla voglia di innovare e migliorare l'interazione tra utenti e prodotti.</p>
         </div>
 
         <!-- Formazione -->
-        <div class="section" id="formazione">
+        <div class="section" id="formazione" aria-label="La mia formazione">
             <h3>FORMAZIONE</h3>
             <ul>
                 <li><strong>Diploma Agraria professionale</strong> - Istituto agrario Lazzaro Spallanzani (2015)</li>
@@ -35,7 +96,7 @@
         </div>
 
         <!-- Esperienze -->
-        <div class="section" id="esperienze">
+        <div class="section" id="esperienze" aria-label="Le mie esperienze">
             <h3>ESPERIENZE</h3>
             <ul>
                 <li><strong>Igienista dentale</strong> - Studio odontoiatrico Ferrari (2019 - Presente)</li>
@@ -45,7 +106,7 @@
         </div>
 
         <!-- Lingue -->
-        <div class="section" id="lingue">
+        <div class="section" id="lingue" aria-label="Lingue che parlo">
             <h3>LINGUE</h3>
             <ul>
                 <li>Italiano (Madrelingua)</li>
@@ -55,7 +116,7 @@
         </div>
 
         <!-- Competenze -->
-        <div class="section" id="competenze">
+        <div class="section" id="competenze" aria-label="Le mie competenze">
             <h3>COMPETENZE</h3>
             <ul>
                 <li>HTML, CSS, Bootstrap</li>
@@ -68,11 +129,11 @@
         </div>
 
         <!-- Contatti -->
-        <div class="section" id="contatti">
+        <div class="section" id="contatti" aria-label="Contatto linkedin">
             <h3>CONTATTI</h3>
             
             
-            <p>LinkedIn: <a href="www.linkedin.com/in/alessia-ferrari-a9a46420a" target="_blank">Alessia Ferrari</a></p>
+            <p>LinkedIn: <a href="www.linkedin.com/in/alessia-ferrari-a9a46420a" class="linkedin" target="_blank">Alessia Ferrari</a></p>
         </div>
     </div>
 
